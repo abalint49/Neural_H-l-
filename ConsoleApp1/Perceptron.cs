@@ -47,11 +47,11 @@ namespace ConsoleApp1
 
         private float sign(float n)
         {
-            double sin = Math.Sinh(n);
-            double tan = Math.Tanh(n);
+            double tan = Math.Tanh(n)*140;
 
+            float working = n+n;
 
-            return n+n;
+            return working;
         }
 
         public string Weight()

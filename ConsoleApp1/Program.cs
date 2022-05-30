@@ -16,6 +16,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             string data = @"C:\neural\data1.csv";
+            string data2 = @"C:\neural\data2.csv";
             string lastTip = @"C:\neural\lestTip.txt";
             float error = 100;
 
@@ -55,23 +56,16 @@ namespace ConsoleApp1
             }*/
 
             
-            while (true)
+            while (error / 100 > 0.1f)
             {
-                if (error / 10 > 1)
+                int k = rnd.Next(0, input.Count());
+                error = 0;
+                for (int j = 0; j < 100; j++)
                 {
-                    int k = rnd.Next(0, input.Count());
-                    error = 0;
-                    for (int j = 0; j < 100; j++)
-                    {
-                        p.train(input[k], output[k]);
-                        error += Math.Abs(p.errors);
-                    }
-                    Console.WriteLine(error / 1000);
+                    p.train(input[k], output[k]);
+                    error += Math.Abs(p.errors);
                 }
-                else
-                {
-                    break;
-                }
+                Console.WriteLine(error / 100);
             }
 
             //int gues = rnd.Next(0, input.Count());

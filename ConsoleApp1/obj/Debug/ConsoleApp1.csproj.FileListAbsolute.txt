@@ -6,3 +6,11 @@ C:\Users\abali\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.Sugg
 C:\Users\abali\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\abali\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\abali\Desktop\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\git\Neural_H-l-\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\git\Neural_H-l-\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\git\Neural_H-l-\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\git\Neural_H-l-\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
+C:\git\Neural_H-l-\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.SuggestedBindingRedirects.cache
+C:\git\Neural_H-l-\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\git\Neural_H-l-\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\git\Neural_H-l-\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
